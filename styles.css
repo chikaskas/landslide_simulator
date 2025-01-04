@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+canvas {
+    width: 100%;
+    aspect-ratio: 2.5;
+    background-color: black;
+}
+#static {
+    width: 20%;
+    display: inline-block;
+    margin: 0px;
+}
+#dynamic {
+    width: 5%;
+    display: inline-block;
+    margin: 0px;
+}
+p {
+    margin: 0px;
+}
+#inputs {
+    display: inline-block;
+    margin: 0px;
+    width: 70%;
+}
+.input {
+    height: 8px;
+    width: 100%;
+}
